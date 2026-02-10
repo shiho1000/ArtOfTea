@@ -5,7 +5,14 @@
   "label" : {
     "en" : [ "A tea-house scene: evening cooling (noryo)" ]
   },
-  "metadata" : [ {
+  "metadata" : [    {
+    "label" : {
+      "en" : [ "Culture" ]
+    },
+    "value" : {
+      "en" : [ "Japanese" ]
+    },
+    {
     "label" : {
       "en" : [ "Title" ]
     },
