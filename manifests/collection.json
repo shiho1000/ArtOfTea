@@ -11,5 +11,11 @@
       "en" : [ "A tea-house scene: evening cooling (noryo)" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://shiho1000.github.io/ArtOfTea/manifests/a_tea_plant_manifest.json",
+    "label" : {
+      "en" : [ "A tea plant (Camellia sinensis)" ]
+    },
+    "type" : "Manifest"
   } ]
 }
