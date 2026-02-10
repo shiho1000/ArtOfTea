@@ -1,0 +1,89 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://shiho1000.github.io/ArtOfTea/manifests/chinese_tea_plantation.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "A Chinese tea plantation" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Culture" ]
+    },
+    "value" : {
+      "en" : [ "English" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Title" ]
+    },
+    "value" : {
+      "en" : [ "A Chinese tea plantation with workers cleaning the racks on which the leaves are laid. Coloured etching, early 19th century." ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Work type" ]
+    },
+    "value" : {
+      "en" : [ "Etchings" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Medium" ]
+    },
+    "value" : {
+      "en" : [ "1 print : etching, with watercolour" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Measurements" ]
+    },
+    "value" : {
+      "en" : [ "platemark 17.5 x 25.8 cm" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "A Chinese tea plantation with workers cleaning the racks on which the leaves are laid. Coloured etching, early 19th century.\nThe manner of cleaning the ozier hurdles that hold the leaves; Bears number \"5\"" ]
+  },
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "en" : [ "JSTOR Open: Wellcome Collection" ]
+    }
+  },
+  "rights" : "http://creativecommons.org/publicdomain/zero/1.0/",
+  "provider" : [ {
+    "id" : "https://example.org/u3pjmpd6tum-mlgnmsdz/provider/sevpqi5hvff-mlgnu0xu",
+    "type" : "Agent",
+    "label" : {
+      "en" : [ "Art of Tea - Digital Library" ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/u3pjmpd6tum-mlgnmsdz/canvas/6dvzgp01gro-mlgnmwev",
+    "type" : "Canvas",
+    "height" : 2281,
+    "width" : 3289,
+    "label" : {
+      "en" : [ "A Chinese tea plantation" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/u3pjmpd6tum-mlgnmsdz/canvas/6dvzgp01gro-mlgnmwev/annotation-page/8u9pdgy1ntu-mlgnmwev",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/u3pjmpd6tum-mlgnmsdz/annotation/opfl0g8oimb-mlgnmw4b",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/u3pjmpd6tum-mlgnmsdz/canvas/6dvzgp01gro-mlgnmwev",
+        "body" : {
+          "id" : "https://shiho1000.github.io/ArtOfTea/images/English-Chineseteaplantation/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2281,
+          "width" : 3289
+        }
+      } ]
+    } ]
+  } ]
+}
