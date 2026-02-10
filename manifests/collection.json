@@ -17,5 +17,11 @@
       "en" : [ "A tea plant (Camellia sinensis)" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://shiho1000.github.io/ArtOfTea/manifests/man_pours_tea_manifest.json",
+    "label" : {
+      "en" : [ "A man pours tea" ]
+    },
+    "type" : "Manifest"
   } ]
 }
