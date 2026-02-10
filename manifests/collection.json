@@ -29,5 +29,11 @@
       "en" : [ "Indian tea plantation" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://shiho1000.github.io/ArtOfTea/manifests/chinese_tea_plantation.json",
+    "label" : {
+      "en" : [ "A Chinese tea plantation" ]
+    },
+    "type" : "Manifest"
   } ]
 }
