@@ -1,0 +1,96 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://shiho1000.github.io/ArtOfTea/manifests/chinese_woman_manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "A Chinese woman picking tea leaves" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Culture" ]
+    },
+    "value" : {
+      "en" : [ "English" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Title" ]
+    },
+    "value" : {
+      "en" : [ "A Chinese woman picking tea leaves. Wood engraving, 1857, after a pen and ink drawing." ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Work type" ]
+    },
+    "value" : {
+      "en" : [ "Periodical illustrations, Wood engravings" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Date" ]
+    },
+    "value" : {
+      "en" : [ "1857" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Medium" ]
+    },
+    "value" : {
+      "en" : [ "1 print : wood engraving" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Measurements" ]
+    },
+    "value" : {
+      "en" : [ "image and text 15.8 x 14.5 cm" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "Chinese woman gathering tea - from a drawing by a Chinese artist" ]
+  },
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "en" : [ "JSTOR Open: Wellcome Collection" ]
+    }
+  },
+  "rights" : "http://creativecommons.org/publicdomain/zero/1.0/",
+  "provider" : [ {
+    "id" : "https://example.org/m40j87ma7si-mlgo3k09/provider/rhr84oda9hp-mlgo5lav",
+    "type" : "Agent",
+    "label" : {
+      "en" : [ "Art of Tea - Digital Library" ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/m40j87ma7si-mlgo3k09/canvas/znnip8qm5dd-mlgo3ojh",
+    "type" : "Canvas",
+    "height" : 2999,
+    "width" : 2842,
+    "label" : {
+      "en" : [ "A Chinese woman picking tea leaves" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/m40j87ma7si-mlgo3k09/canvas/znnip8qm5dd-mlgo3ojh/annotation-page/980jwwjo22e-mlgo3ojh",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/m40j87ma7si-mlgo3k09/annotation/skgo6pr5qbg-mlgo3oc9",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/m40j87ma7si-mlgo3k09/canvas/znnip8qm5dd-mlgo3ojh",
+        "body" : {
+          "id" : "https://shiho1000.github.io/ArtOfTea/images/English-Chinesewomanpicking-[1857]/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2999,
+          "width" : 2842
+        }
+      } ]
+    } ]
+  } ]
+}
