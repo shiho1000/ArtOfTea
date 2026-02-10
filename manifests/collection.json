@@ -1,0 +1,15 @@
+{
+  "id" : "https://shiho1000.github.io/ArtOfTea/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in shiho1000/ArtOfTea project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://shiho1000.github.io/ArtOfTea/manifests/tea_house_scene_manifest.json",
+    "label" : {
+      "en" : [ "A tea-house scene: evening cooling (noryo)" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
