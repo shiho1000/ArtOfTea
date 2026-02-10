@@ -1,0 +1,88 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://shiho1000.github.io/ArtOfTea/manifests/a_tea_plant_manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "A tea plant (Camellia sinensis)" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Culture" ]
+    },
+    "value" : {
+      "en" : [ "English" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Title" ]
+    },
+    "value" : {
+      "en" : [ "A tea plant (Camellia sinensis), its flowers and seeds, bordered by six scenes illustrating its use by man. Coloured lithograph, c. 1840." ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Work type" ]
+    },
+    "value" : {
+      "en" : [ "Lithographs" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Date" ]
+    },
+    "value" : {
+      "en" : [ "[c. 1840]" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Medium" ]
+    },
+    "value" : {
+      "en" : [ "1 print : lithograph, with watercolour" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Measurements" ]
+    },
+    "value" : {
+      "en" : [ "border 22.5 x 17.7 cm" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "The tea plant. the flowers. seeds parts of the flower. watering the plants. gathering the leaves. drying and rolling the leaves. packing. selling tea. drinking tea" ]
+  },
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "en" : [ "JSTOR Open: Wellcome Collection" ]
+    }
+  },
+  "items" : [ {
+    "id" : "https://example.org/595jbuk3zm5-mlgmeycp/canvas/su5wuuw3xk-mlgmf54k",
+    "type" : "Canvas",
+    "height" : 3133,
+    "width" : 2480,
+    "label" : {
+      "en" : [ "A tea plant (Camellia sinensis)" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/595jbuk3zm5-mlgmeycp/canvas/su5wuuw3xk-mlgmf54k/annotation-page/xiy79b6bw6o-mlgmf54k",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/595jbuk3zm5-mlgmeycp/annotation/7gammxidpes-mlgmf4t8",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/595jbuk3zm5-mlgmeycp/canvas/su5wuuw3xk-mlgmf54k",
+        "body" : {
+          "id" : "https://shiho1000.github.io/ArtOfTea/images/teaplantCamellia/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3133,
+          "width" : 2480
+        }
+      } ]
+    } ]
+  } ]
+}
