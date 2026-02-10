@@ -1,0 +1,81 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://shiho1000.github.io/ArtOfTea/manifests/man_pours_tea_manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "A man pours tea" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Creator" ]
+    },
+    "value" : {
+      "en" : [ "Boucher, François, 1703-1770." ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Title" ]
+    },
+    "value" : {
+      "en" : [ "A man pours tea for a resting Chinese warrior as a kettle steams on the stove beside them. Coloured etching with ornamentation after F. Boucher, early 18th century." ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Work type" ]
+    },
+    "value" : {
+      "en" : [ "Etchings" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Medium" ]
+    },
+    "value" : {
+      "en" : [ "1 print : etching, with watercolour and colour printed ornamentation" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Measurements" ]
+    },
+    "value" : {
+      "en" : [ "image 27.7 x 21.2 cm" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "A man pours tea for a resting Chinese warrior as a kettle steams on the stove beside them. Coloured etching with ornamentation after F. Boucher, early 18th century." ]
+  },
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "en" : [ "JSTOR Open: Wellcome Collection" ]
+    }
+  },
+  "items" : [ {
+    "id" : "https://example.org/zzpjw4g391-mlgn4778/canvas/u790j3ooz2-mlgn4ck7",
+    "type" : "Canvas",
+    "height" : 3150,
+    "width" : 2388,
+    "label" : {
+      "en" : [ "A man pours tea" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/zzpjw4g391-mlgn4778/canvas/u790j3ooz2-mlgn4ck7/annotation-page/jfez0rrdhp-mlgn4ck7",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/zzpjw4g391-mlgn4778/annotation/66kjhkloc14-mlgn4c7y",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/zzpjw4g391-mlgn4778/canvas/u790j3ooz2-mlgn4ck7",
+        "body" : {
+          "id" : "https://shiho1000.github.io/ArtOfTea/images/Boucher-manpourstea/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3150,
+          "width" : 2388
+        }
+      } ]
+    } ]
+  } ]
+}
