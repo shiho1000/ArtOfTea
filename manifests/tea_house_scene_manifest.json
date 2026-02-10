@@ -1,0 +1,88 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://shiho1000.github.io/ArtOfTea/manifests/tea_house_scene_manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "A tea-house scene: evening cooling (noryo)" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Title" ]
+    },
+    "value" : {
+      "en" : [ "A tea-house scene: evening cooling (noryo). Woodcut, 1815." ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Work type" ]
+    },
+    "value" : {
+      "en" : [ "Woodcuts - Japan" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Date" ]
+    },
+    "value" : {
+      "en" : [ "1815" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Medium" ]
+    },
+    "value" : {
+      "en" : [ "1 print : woodcut" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Measurements" ]
+    },
+    "value" : {
+      "en" : [ "sheet 22.7 x 26.1 cm" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "Lettering in Japanese" ]
+  },
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "none" : [ "JSTOR Open: Wellcome Collection" ]
+    }
+  },
+  "provider" : [ {
+    "id" : "https://example.org/g44e9ak1jjc-mlglja04/provider/h7nmxpugmz-mlglztaf",
+    "type" : "Agent",
+    "label" : {
+      "en" : [ "Art of Tea - Digital Library" ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/g44e9ak1jjc-mlglja04/canvas/ln2jewvzmyd-mlgm8adz",
+    "type" : "Canvas",
+    "height" : 2278,
+    "width" : 3265,
+    "label" : {
+      "en" : [ "A tea-house scene: evening cooling (noryo)" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/g44e9ak1jjc-mlglja04/canvas/ln2jewvzmyd-mlgm8adz/annotation-page/34zu5u9fo1l-mlgm8adz",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/g44e9ak1jjc-mlglja04/annotation/hf3jbknxw-mlgm8a8h",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/g44e9ak1jjc-mlglja04/canvas/ln2jewvzmyd-mlgm8adz",
+        "body" : {
+          "id" : "https://shiho1000.github.io/ArtOfTea/images/-Atea-housescene_-[1815]/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2278,
+          "width" : 3265
+        }
+      } ]
+    } ]
+  } ]
+}
