@@ -23,5 +23,11 @@
       "en" : [ "A man pours tea" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://shiho1000.github.io/ArtOfTea/manifests/indian_tea_plantation_manifest.json",
+    "label" : {
+      "en" : [ "Indian tea plantation" ]
+    },
+    "type" : "Manifest"
   } ]
 }
