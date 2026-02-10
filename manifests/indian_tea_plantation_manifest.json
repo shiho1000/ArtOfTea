@@ -1,0 +1,88 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://shiho1000.github.io/ArtOfTea/manifests/indian_tea_plantation_manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Indian tea plantation" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Culture" ]
+    },
+    "value" : {
+      "en" : [ "English" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Title" ]
+    },
+    "value" : {
+      "en" : [ "Indian tea plantation, an European lady and gentleman on horseback approach the main house, where a number of people await their arrival. Watercolour by an Indian artist." ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Work type" ]
+    },
+    "value" : {
+      "en" : [ "Watercolors, Paintings" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Date" ]
+    },
+    "value" : {
+      "en" : [ "[between 1800 and 1899?]" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Medium" ]
+    },
+    "value" : {
+      "en" : [ "1 painting : watercolour, with pencil" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Measurements" ]
+    },
+    "value" : {
+      "en" : [ "image 19.5 x 16.5 cm" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "Indian tea plantation, an European lady and gentleman on horseback approach the main house, where a number of people await their arrival. Watercolour by an Indian artist" ]
+  },
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "en" : [ "JSTOR Open: Wellcome Collection" ]
+    }
+  },
+  "items" : [ {
+    "id" : "https://example.org/ejglyqtywl8-mlgndnbb/canvas/b9sc3n6q5j5-mlgndsgt",
+    "type" : "Canvas",
+    "height" : 2415,
+    "width" : 3298,
+    "label" : {
+      "en" : [ "Indian tea plantation" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/ejglyqtywl8-mlgndnbb/canvas/b9sc3n6q5j5-mlgndsgt/annotation-page/4tq5hfe2lq7-mlgndsgt",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/ejglyqtywl8-mlgndnbb/annotation/10f6xhii0qxi-mlgnds5f",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/ejglyqtywl8-mlgndnbb/canvas/b9sc3n6q5j5-mlgndsgt",
+        "body" : {
+          "id" : "https://shiho1000.github.io/ArtOfTea/images/Indianteaplantation/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2415,
+          "width" : 3298
+        }
+      } ]
+    } ]
+  } ]
+}
