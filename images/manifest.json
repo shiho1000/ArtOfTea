@@ -414,6 +414,87 @@
             ]
         },
         {
+            "id": "https://shiho1000.github.io/ArtOfTea/images/Guo_Xu_album_dated_1503/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Guo_Xu_album_dated_1503"
+                ]
+            },
+            "height": 2309,
+            "width": 3840,
+            "items": [
+                {
+                    "id": "https://shiho1000.github.io/ArtOfTea/images/Guo_Xu_album_dated_1503/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://shiho1000.github.io/ArtOfTea/images/Guo_Xu_album_dated_1503/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://shiho1000.github.io/ArtOfTea/images/Guo_Xu_album_dated_1503/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 120,
+                                                "height": 73
+                                            },
+                                            {
+                                                "width": 240,
+                                                "height": 145
+                                            },
+                                            {
+                                                "width": 480,
+                                                "height": 289
+                                            },
+                                            {
+                                                "width": 960,
+                                                "height": 578
+                                            },
+                                            {
+                                                "width": 1920,
+                                                "height": 1155
+                                            },
+                                            {
+                                                "width": 3840,
+                                                "height": 2309
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3840,
+                                        "@id": "https://shiho1000.github.io/ArtOfTea/images/Guo_Xu_album_dated_1503",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2309,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://shiho1000.github.io/ArtOfTea/images/Guo_Xu_album_dated_1503/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://shiho1000.github.io/ArtOfTea/images/English-Chineseteaplantation/canvas/",
             "type": "Canvas",
             "label": {
