@@ -1,0 +1,96 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://shiho1000.github.io/ArtOfTea/manifests/shennong_manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Shennong" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Artist" ]
+    },
+    "value" : {
+      "en" : [ "Guo Xu" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Date" ]
+    },
+    "value" : {
+      "en" : [ "1503" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Place of Creation" ]
+    },
+    "value" : {
+      "en" : [ "China during the Ming dynasty" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Medium" ]
+    },
+    "value" : {
+      "en" : [ "Album leaf; ink and colors on paper" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Dimensions" ]
+    },
+    "value" : {
+      "en" : [ "29.8 × 49.3 cm" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Notes" ]
+    },
+    "value" : {
+      "en" : [ "This is one of eleven paintings comprising an album." ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "This painting depicts Shennong as he chews a branch, illustrating his role as healer." ]
+  },
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "en" : [ "Wikimedia Commons" ]
+    }
+  },
+  "rights" : "http://creativecommons.org/publicdomain/zero/1.0/",
+  "provider" : [ {
+    "id" : "https://example.org/duha77i0wqq-mlpa7h0s/provider/7f9wwn5blnp-mlpaflni",
+    "type" : "Agent",
+    "label" : {
+      "en" : [ "Art of Tea - Digital Library" ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/duha77i0wqq-mlpa7h0s/canvas/u5vvdk3t19r-mlpad00u",
+    "type" : "Canvas",
+    "height" : 2309,
+    "width" : 3840,
+    "label" : {
+      "en" : [ "Shennong" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/duha77i0wqq-mlpa7h0s/canvas/u5vvdk3t19r-mlpad00u/annotation-page/psci8a2k1e-mlpad00u",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/duha77i0wqq-mlpa7h0s/canvas/u5vvdk3t19r-mlpad00u/annotation-page/psci8a2k1e-mlpad00u/annotation/orw6fxi100e-mlpadp1u",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/duha77i0wqq-mlpa7h0s/canvas/u5vvdk3t19r-mlpad00u",
+        "body" : {
+          "id" : "https://shiho1000.github.io/ArtOfTea/images/Guo_Xu_album_dated_1503/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2309,
+          "width" : 3840
+        }
+      } ]
+    } ]
+  } ]
+}
