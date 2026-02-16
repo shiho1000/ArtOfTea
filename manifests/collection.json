@@ -41,5 +41,11 @@
       "en" : [ "A Chinese woman picking tea leaves" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://shiho1000.github.io/ArtOfTea/manifests/shennong_manifest.json",
+    "label" : {
+      "en" : [ "Shennong" ]
+    },
+    "type" : "Manifest"
   } ]
 }
